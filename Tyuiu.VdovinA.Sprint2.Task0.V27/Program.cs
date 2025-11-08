@@ -1,5 +1,4 @@
 ﻿
-
 using Tyuiu.VdovinA.Sprint2.Task0.V27.Lib;
 
 namespace Tyuiu.VdovinA.Sprint2.Task0.V27
