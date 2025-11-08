@@ -1,6 +1,4 @@
-﻿
-
-﻿using tyuiu.cources.programming.interfaces.Sprint2;
+﻿﻿using tyuiu.cources.programming.interfaces.Sprint2;
 
 namespace Tyuiu.VdovinA.Sprint2.Task0.V27.Lib
 {
