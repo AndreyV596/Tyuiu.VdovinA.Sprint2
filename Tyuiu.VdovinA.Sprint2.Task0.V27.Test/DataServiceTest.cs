@@ -9,6 +9,7 @@ namespace Tyuiu.VdovinA.Sprint2.Task0.V27.Test
         public void GetCompareOperations()
         {
             DataService ds = new DataService();
+
             int x = 1305;
             int y = 275;
             bool[] res = new bool[6];
