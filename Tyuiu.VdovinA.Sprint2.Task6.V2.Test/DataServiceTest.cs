@@ -12,24 +12,24 @@ namespace Tyuiu.VdovinA.Sprint2.Task6.V2.Test
             DataService ds = new DataService();
 
             // Зима
-            Assert.AreEqual("Зима", ds.FindMonthSeason(12));
-            Assert.AreEqual("Зима", ds.FindMonthSeason(1));
-            Assert.AreEqual("Зима", ds.FindMonthSeason(2));
+            Assert.AreEqual("зима", ds.FindMonthSeason(12));
+            Assert.AreEqual("зима", ds.FindMonthSeason(1));
+            Assert.AreEqual("зима", ds.FindMonthSeason(2));
 
             // Весна
-            Assert.AreEqual("Весна", ds.FindMonthSeason(3));
-            Assert.AreEqual("Весна", ds.FindMonthSeason(4));
-            Assert.AreEqual("Весна", ds.FindMonthSeason(5));
+            Assert.AreEqual("весна", ds.FindMonthSeason(3));
+            Assert.AreEqual("весна", ds.FindMonthSeason(4));
+            Assert.AreEqual("весна", ds.FindMonthSeason(5));
 
             // Лето
-            Assert.AreEqual("Лето", ds.FindMonthSeason(6));
-            Assert.AreEqual("Лето", ds.FindMonthSeason(7));
-            Assert.AreEqual("Лето", ds.FindMonthSeason(8));
+            Assert.AreEqual("лето", ds.FindMonthSeason(6));
+            Assert.AreEqual("лето", ds.FindMonthSeason(7));
+            Assert.AreEqual("лето", ds.FindMonthSeason(8));
 
             // Осень
-            Assert.AreEqual("Осень", ds.FindMonthSeason(9));
-            Assert.AreEqual("Осень", ds.FindMonthSeason(10));
-            Assert.AreEqual("Осень", ds.FindMonthSeason(11));
+            Assert.AreEqual("осень", ds.FindMonthSeason(9));
+            Assert.AreEqual("осень", ds.FindMonthSeason(10));
+            Assert.AreEqual("осень", ds.FindMonthSeason(11));
 
             // Исключения
             Assert.ThrowsException<ArgumentException>(() =>
